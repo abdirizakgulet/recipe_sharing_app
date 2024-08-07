@@ -39,3 +39,119 @@
   -webkit-text-stroke: 2.5px rgb(39, 51, 42);
   color: transparent;
 }
+.recipes-page {
+  padding: 20px;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  color: red;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.header h1 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.header p {
+  color: gray;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.navigation-buttons {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f0ad4e;
+  color: white;
+  cursor: pointer;
+}
+
+.recipes-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.recipe-card {
+  width: 200px;
+  text-align: center;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.recipe-info {
+  margin-top: 10px;
+}
+
+/* Add Recipe Form */
+.add-recipe-form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.add-recipe-form h3 {
+  margin-bottom: 15px;
+}
+
+.add-recipe-form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.add-recipe-form .btn {
+  width: 100%;
+  background-color: #5cb85c;
+}
+
+/* Cuisines List */
+.cuisines-list {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.cuisines-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cuisines-list li {
+  padding: 5px 0;
+  font-size: 1.2em;
+}
+
